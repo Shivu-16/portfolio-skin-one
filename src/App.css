@@ -1,0 +1,315 @@
+/* #bubbles-footer {
+  display: block;
+  height: 100px;
+  width: 100%;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Rubik+Wet+Paint&display=swap');
+
+#bubbles-header {
+  position: absolute;
+  top: 100;
+  left: 100;
+  /* height: 100vh; */
+  z-index: 0;
+  transform: translateX('-500px');
+}
+
+c-bubbles {
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+.body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #cdcaa2;
+  font-family: 'Barriecito', cursive;
+  overflow: hidden;
+}
+
+h1.hero-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 7vw;
+  font-weight: 400;
+  z-index: 0;
+}
+
+/* .overlay {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 0;
+} */
+
+svg path {
+  fill: black;
+}
+
+.btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2em;
+  z-index: 4;
+  cursor: pointer;
+}
+
+.btn-outline.expanded {
+  /* Set color for the .btn-outline when menu is expanded */
+  border-color: #cdcaa2;
+}
+
+.btn-outline {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+}
+
+.btn-outline-1 {
+  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  animation: morph 3s linear infinite;
+}
+
+.btn-outline-2 {
+  border-radius: 53% 47% 43% 57% / 51% 39% 61% 49%;
+}
+
+@keyframes morph {
+  0% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+
+  50% {
+    border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+  }
+
+  100% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+}
+
+#hamburger {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  z-index: 2;
+}
+
+#hamburger span {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: inline-block;
+  width: 24px;
+  height: 3px;
+  background: black;
+  transition: transform 0.25s;
+}
+
+#hamburger span::before {
+  position: absolute;
+  right: 0;
+  display: inline-block;
+  content: "";
+  width: 18px;
+  height: 3px;
+  background: black;
+  transform: translateY(-4px);
+  transition: transform 0.25s;
+}
+
+#hamburger active span {
+  transform: rotate(45deg);
+}
+
+#hamburger active span::before {
+  top: unset;
+  width: 24px;
+  transform: rotate(-90deg);
+}
+
+#hamburger.active span {
+  /* Set color for the hamburger icon when menu is expanded */
+  background: #cdcaa2;
+}
+
+#hamburger.active span::before {
+  /* Set color for the before pseudo-element of the hamburger icon when menu is expanded */
+  background: #cdcaa2;
+}
+
+svg.expanded path {
+  /* Set color for the SVG path when menu is expanded */
+  fill: #cdcaa2;
+}
+
+.menu {
+  /* visibility: hidden; */
+  background: #000;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  transition: all 0.5s ease-in-out;
+  clip-path: circle(0%);
+  transform: translateY(50%) scale(0);
+  animation: none; /* Disable animation initially */
+  z-index: -1;
+}
+
+ .menu.expanded {
+  animation: revealCircular 0.5s forwards;
+  z-index: 1;
+}
+
+@keyframes revealCircular {
+  0% {
+    clip-path: circle(0%);
+    transform: translateY(50%) scale(0);
+  }
+  100% {
+    clip-path: circle(75%);
+    transform: translateY(0) scale(1);
+  }
+}
+
+.menu>div {
+  height: 100%;
+  display: flex;
+}
+
+.menu a {
+  position: relative;
+  top: 25vh;
+  line-height: 70%;
+  text-decoration: none;
+  color: #cdcaa2;
+  font-size: 4vw;
+  /* color: red; */
+}
+
+.menu a span {
+  font-size: 4vw;
+  margin-right: 2em;
+}
+
+.menu-item {
+  position: relative;
+}
+
+.menu-item:after {
+  content: "";
+  position: absolute;
+  top: 100px;
+  left: -20px;
+  width: 150%;
+  height: 200%;
+  /* background: black; */
+  margin: 0 auto;
+}
+
+.menu-container {
+  width: 70%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.primary-menu {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.primary-menu .menu-container .wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.primary-menu a {
+  text-transform: uppercase;
+  font-size: 12vw;
+  font-weight: 500;
+}
+
+.secondary-menu {
+  transform: translate(40vw, -30vw);
+}
+
+.secondary-menu .menu-item a {
+  /* font-family: "Ayer"; */
+  margin: 2vw;
+  font-size: 5vw;
+}
+
+.secondary-menu .menu-container .wrapper:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.primary-menu .menu-container .wrapper menu-item:nth-child(1) a,
+.primary-menu .menu-container .wrapper menu-item:nth-child(3) a {
+  margin-left: 3vw;
+}
+
+.count {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  font-size: 130px;
+  color: #c16100;
+  padding:1em;
+  font-family: 'Rubik Wet Paint', cursive;
+  font-weight: 500;
+}
+
+.loading {
+  height: 100%;
+  width: 100%;
+  background-color: #121212;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+}
+
+/* .follow {
+  position: absolute;
+  background-color: #cdcaa2;
+  height: 2px;
+  width: 0;
+  left: 0;
+  z-index: 2;
+} */
