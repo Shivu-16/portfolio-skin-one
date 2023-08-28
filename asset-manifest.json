@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-skin-one/static/css/main.f3dcee22.css",
-    "main.js": "/portfolio-skin-one/static/js/main.ab10c72a.js",
+    "main.css": "/portfolio-skin-one/static/css/main.3a6af4a4.css",
+    "main.js": "/portfolio-skin-one/static/js/main.d6eb6b86.js",
     "static/js/787.baeabeac.chunk.js": "/portfolio-skin-one/static/js/787.baeabeac.chunk.js",
     "static/media/Shivam2CV.pdf": "/portfolio-skin-one/static/media/Shivam2CV.2f99bc9b5d9bd1ecd1ea.2f99bc9b5d9bd1ecd1ea.pdf",
     "static/media/child-cartoon-template-kindergarten-playful-city-png": "/portfolio-skin-one/static/media/child-cartoon-template-kindergarten-playful-city-bd91e4a4e46c77ed9c977b46696b3cb7.990daa15748044334193.png",
@@ -16,18 +16,19 @@
     "static/media/icons8-whatsapp.svg": "/portfolio-skin-one/static/media/icons8-whatsapp.ff32640a535dbc11ad8f65cc8952483f.svg",
     "static/media/icons8-gmail.svg": "/portfolio-skin-one/static/media/icons8-gmail.49ee4285cc355eaca7b679c145432ffd.svg",
     "static/media/icons8-linkedin.svg": "/portfolio-skin-one/static/media/icons8-linkedin.b8984ee6e1fdf1780ba94279c6187e09.svg",
+    "static/media/swirl-arrow-right-icon.svg": "/portfolio-skin-one/static/media/swirl-arrow-right-icon.acf3321be29dc84b65c154dc2a5d9428.svg",
     "index.html": "/portfolio-skin-one/index.html",
     "static/media/aboutBackground.svg.svg": "/portfolio-skin-one/static/media/aboutBackground.svg.4445b76acdd15d216ae4.svg",
     "static/media/svg-path.svg": "/portfolio-skin-one/static/media/svg-path.7a42b4495faee78c0a32.svg",
     "static/media/circleBackground.svg": "/portfolio-skin-one/static/media/circleBackground.ee8bbef1770a68264c4d.svg",
     "static/media/halfCircleBackground.svg": "/portfolio-skin-one/static/media/halfCircleBackground.249b45927eba9acf3967.svg",
     "static/media/Bubbles-header.svg": "/portfolio-skin-one/static/media/Bubbles-header.d89cfb6fe79fbb8aa6ac8895665d6134.svg",
-    "main.f3dcee22.css.map": "/portfolio-skin-one/static/css/main.f3dcee22.css.map",
-    "main.ab10c72a.js.map": "/portfolio-skin-one/static/js/main.ab10c72a.js.map",
+    "main.3a6af4a4.css.map": "/portfolio-skin-one/static/css/main.3a6af4a4.css.map",
+    "main.d6eb6b86.js.map": "/portfolio-skin-one/static/js/main.d6eb6b86.js.map",
     "787.baeabeac.chunk.js.map": "/portfolio-skin-one/static/js/787.baeabeac.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f3dcee22.css",
-    "static/js/main.ab10c72a.js"
+    "static/css/main.3a6af4a4.css",
+    "static/js/main.d6eb6b86.js"
   ]
 }
