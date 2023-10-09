@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-skin-one/static/css/main.15076bf0.css",
-    "main.js": "/portfolio-skin-one/static/js/main.db27fcb5.js",
+    "main.css": "/portfolio-skin-one/static/css/main.7fdd4086.css",
+    "main.js": "/portfolio-skin-one/static/js/main.0429a8ec.js",
     "static/js/787.baeabeac.chunk.js": "/portfolio-skin-one/static/js/787.baeabeac.chunk.js",
     "static/media/Shivam2CV.pdf": "/portfolio-skin-one/static/media/Shivam2CV.2f99bc9b5d9bd1ecd1ea.2f99bc9b5d9bd1ecd1ea.pdf",
     "static/media/child-cartoon-template-kindergarten-playful-city-png": "/portfolio-skin-one/static/media/child-cartoon-template-kindergarten-playful-city-bd91e4a4e46c77ed9c977b46696b3cb7.990daa15748044334193.png",
@@ -10,7 +10,6 @@
     "static/media/1658712442_28-papik-pro-p-drawings-of-a-child-on-a-transparent-backg-28-removebg-preview.png": "/portfolio-skin-one/static/media/1658712442_28-papik-pro-p-drawings-of-a-child-on-a-transparent-backg-28-removebg-preview.0007f89b12a40d75e6c5.png",
     "static/media/image_processing20210613-1005-391ni3.png": "/portfolio-skin-one/static/media/image_processing20210613-1005-391ni3.0eec86f420cd1e5ba202.png",
     "static/media/footerBackground.svg": "/portfolio-skin-one/static/media/footerBackground.7d2a44c290da38e3ef15.svg",
-    "static/media/uxwing-svg-icon-editor.png": "/portfolio-skin-one/static/media/uxwing-svg-icon-editor.0b2c1f22684db9c48c26.png",
     "static/media/clipart2176267.png": "/portfolio-skin-one/static/media/clipart2176267.93c60782c5cf7c07f962.png",
     "static/media/icons8-instagram-500.svg": "/portfolio-skin-one/static/media/icons8-instagram-500.99f825cf5f4dc5f243da18e7f1b9085c.svg",
     "static/media/icons8-whatsapp.svg": "/portfolio-skin-one/static/media/icons8-whatsapp.ff32640a535dbc11ad8f65cc8952483f.svg",
@@ -18,19 +17,18 @@
     "static/media/icons8-linkedin.svg": "/portfolio-skin-one/static/media/icons8-linkedin.b8984ee6e1fdf1780ba94279c6187e09.svg",
     "static/media/house-svgrepo-com.svg": "/portfolio-skin-one/static/media/house-svgrepo-com.6d9e892e2e6c220b2f58054e48161f7e.svg",
     "static/media/swirl-arrow-right-icon.svg": "/portfolio-skin-one/static/media/swirl-arrow-right-icon.acf3321be29dc84b65c154dc2a5d9428.svg",
-    "static/media/user-hands-svgrepo-com.svg": "/portfolio-skin-one/static/media/user-hands-svgrepo-com.fbcb19db8f45785004dbff9055b4f972.svg",
     "index.html": "/portfolio-skin-one/index.html",
     "static/media/aboutBackground.svg.svg": "/portfolio-skin-one/static/media/aboutBackground.svg.4445b76acdd15d216ae4.svg",
     "static/media/svg-path.svg": "/portfolio-skin-one/static/media/svg-path.7a42b4495faee78c0a32.svg",
     "static/media/circleBackground.svg": "/portfolio-skin-one/static/media/circleBackground.ee8bbef1770a68264c4d.svg",
     "static/media/halfCircleBackground.svg": "/portfolio-skin-one/static/media/halfCircleBackground.249b45927eba9acf3967.svg",
-    "static/media/Bubbles-header.svg": "/portfolio-skin-one/static/media/Bubbles-header.d89cfb6fe79fbb8aa6ac8895665d6134.svg",
-    "main.15076bf0.css.map": "/portfolio-skin-one/static/css/main.15076bf0.css.map",
-    "main.db27fcb5.js.map": "/portfolio-skin-one/static/js/main.db27fcb5.js.map",
+    "static/media/Bubbles-header.svg": "/portfolio-skin-one/static/media/Bubbles-header.44ca79628541550f9154f0051f8833e6.svg",
+    "main.7fdd4086.css.map": "/portfolio-skin-one/static/css/main.7fdd4086.css.map",
+    "main.0429a8ec.js.map": "/portfolio-skin-one/static/js/main.0429a8ec.js.map",
     "787.baeabeac.chunk.js.map": "/portfolio-skin-one/static/js/787.baeabeac.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.15076bf0.css",
-    "static/js/main.db27fcb5.js"
+    "static/css/main.7fdd4086.css",
+    "static/js/main.0429a8ec.js"
   ]
 }
