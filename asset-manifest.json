@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-skin-one/static/css/main.7fdd4086.css",
-    "main.js": "/portfolio-skin-one/static/js/main.0429a8ec.js",
+    "main.css": "/portfolio-skin-one/static/css/main.9de9c285.css",
+    "main.js": "/portfolio-skin-one/static/js/main.65be0721.js",
     "static/js/787.baeabeac.chunk.js": "/portfolio-skin-one/static/js/787.baeabeac.chunk.js",
     "static/media/Shivam2CV.pdf": "/portfolio-skin-one/static/media/Shivam2CV.2f99bc9b5d9bd1ecd1ea.2f99bc9b5d9bd1ecd1ea.pdf",
     "static/media/child-cartoon-template-kindergarten-playful-city-png": "/portfolio-skin-one/static/media/child-cartoon-template-kindergarten-playful-city-bd91e4a4e46c77ed9c977b46696b3cb7.990daa15748044334193.png",
@@ -23,12 +23,12 @@
     "static/media/circleBackground.svg": "/portfolio-skin-one/static/media/circleBackground.ee8bbef1770a68264c4d.svg",
     "static/media/halfCircleBackground.svg": "/portfolio-skin-one/static/media/halfCircleBackground.249b45927eba9acf3967.svg",
     "static/media/Bubbles-header.svg": "/portfolio-skin-one/static/media/Bubbles-header.44ca79628541550f9154f0051f8833e6.svg",
-    "main.7fdd4086.css.map": "/portfolio-skin-one/static/css/main.7fdd4086.css.map",
-    "main.0429a8ec.js.map": "/portfolio-skin-one/static/js/main.0429a8ec.js.map",
+    "main.9de9c285.css.map": "/portfolio-skin-one/static/css/main.9de9c285.css.map",
+    "main.65be0721.js.map": "/portfolio-skin-one/static/js/main.65be0721.js.map",
     "787.baeabeac.chunk.js.map": "/portfolio-skin-one/static/js/787.baeabeac.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7fdd4086.css",
-    "static/js/main.0429a8ec.js"
+    "static/css/main.9de9c285.css",
+    "static/js/main.65be0721.js"
   ]
 }
