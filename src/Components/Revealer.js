@@ -3,7 +3,7 @@ import Main from "./Main";
 import { gsap, CSSPlugin, Expo, Power4 } from "gsap";
 gsap.registerPlugin(CSSPlugin);
 
-const Revealer = () => {
+const Revealer = (tl, ease) => {
   const [counter, setCounter] = useState(0);
 
   useEffect(() => {
@@ -14,6 +14,7 @@ const Revealer = () => {
           : (clearInterval(count), setCounter(200), reveal())
       );
     }, 25);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const main = document.querySelector(".main");
@@ -53,10 +54,10 @@ const Revealer = () => {
 
   return (
     <>
-      <Main />
+      <Main timeline={tl} ease={ease} />
       <div className="loading">
         <div className="follow"></div>
-        <p className="count hide">{Math.floor(counter/2)}%</p>
+        <p className="count hide">{Math.floor(counter / 2)}%</p>
       </div>
     </>
   );

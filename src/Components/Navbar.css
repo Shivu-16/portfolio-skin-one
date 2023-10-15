@@ -1,0 +1,149 @@
+.menu {
+    top: -4vw;
+    right: -7vw;
+    position: relative;
+    width: 25vw;
+    height: 25vw;
+    display: flex;
+    z-index: 100;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu .toggle {
+    position: absolute;
+    width: 10vw;
+    height: 10vw;
+    background: yellow;
+    color: aquamarine;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.iconImage {
+    height: 4vw;
+}
+
+.menu .toggle.active {
+    transform: rotate(315deg);
+    box-shadow: 0 0 0 6vw pink;
+    background: transparent;
+
+}
+
+.menu li {
+    position: absolute;
+    list-style: none;
+    transform: rotate(calc((360deg / 8 * var(--i)) - 124deg));
+    transform-origin: 11vw;
+    left: 1vw;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+    z-index: 10;
+}
+
+.menu.active li {
+    visibility: visible;
+    opacity: 1;
+}
+
+.menu li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6.5vw;
+    height: 5vw;
+    transform: rotate(calc(360deg / -8 * var(--i) + 124deg));;
+    border-radius: 50%;
+}
+
+.menu.active li.active {
+    transform: rotate(calc(360deg / 8 * var(--i) - 124deg)) translateX(-2vw);
+    /* translate: -2vw; */
+}
+
+.indicator {
+    position: absolute;
+    left: calc(50% + 0.1vw);
+    transform-origin:right;
+    width: 12vw;
+    height: 0.1vw;
+    /* background: red; */
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.indicator::before{
+    content: '';
+    position: absolute;
+    top: -3vw;
+    left: 10.5vw;
+    width: 6.2vw;
+    height: 6.2vw;
+    background: blue;
+    box-shadow: 0 0 0 0.5vw brown;
+    border-radius: 50%;
+    /* transition: 0.5s; */
+    opacity: 0;
+}
+
+.menu.active .indicator::before{
+    opacity: 1;
+    top: -3vw;
+    left: -3vw;
+    box-shadow:0 0 0 0.5vw #110000;
+}
+
+.menu li:nth-child(2).active ~ .indicator{
+    transform: translateX(-11.5vw);
+}
+.menu li:nth-child(2).active ~ .indicator::before{
+    background: #66ccff;
+}
+.menu li:nth-child(3).active ~ .indicator{
+    transform: translateX(-13.9vw) rotate(50deg);
+}
+.menu li:nth-child(3).active ~ .indicator::before{
+    background: #b1a89e;
+}
+.menu li:nth-child(4).active ~ .indicator{
+    transform: translateX(-13.9vw) rotate(50deg);
+}
+.menu li:nth-child(4).active ~ .indicator::before{
+    background: #b1a89e;
+}
+.menu li:nth-child(5).active ~ .indicator{
+    transform: translateX(-13.9vw) rotate(50deg);
+}
+.menu li:nth-child(5).active ~ .indicator::before{
+    background: #b1a89e;
+}
+.menu li:nth-child(6).active ~ .indicator{
+    transform: translateX(-13.9vw) rotate(50deg);
+}
+.menu li:nth-child(6).active ~ .indicator::before{
+    background: #b1a89e;
+}
+.menu li:nth-child(7).active ~ .indicator{
+    transform: translateX(-11vw) translateY(1vw) rotate(225deg);
+}
+.menu li:nth-child(7).active ~ .indicator::before{
+    background: #be6700;
+}
+.menu li:nth-child(8).active ~ .indicator{
+    transform: translateX(-12.5vw) translateY(-1vw) rotate(270deg);
+}
+.menu li:nth-child(8).active ~ .indicator::before{
+    background: #cdcaa2;
+}
+.menu li:nth-child(9).active ~ .indicator{
+    transform: translateX(-13vw) translateY(-1.5vw) rotate(307deg);
+}
+.menu li:nth-child(9).active ~ .indicator::before{
+    background: #cdcaa2;
+}

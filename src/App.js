@@ -1,14 +1,17 @@
 import './App.css';
-// import Main from './Components/Main';
-// import Preloader from './Components/Preloader';
-import Revealer from './Components/Revealer';
-
+import {gsap, Power3} from 'gsap';
+import Main from './Components/Main';
+import Magnet from './Components/Magnet'
 
 function App() {
+
+  let tl = new gsap.timeline();
+  let ease = Power3.easeOut;
+
   return (
     <>
-    {/* <Main/> */}
-    <Revealer/>
+    <Main timeline = {tl} ease= {ease}/>
+    <Magnet/>
     </>
   );
 }

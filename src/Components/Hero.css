@@ -1,0 +1,53 @@
+.text-wrapper p {
+    font-size: 7vw;
+    text-align: center;
+    color: black;
+    z-index: 1;
+    position: absolute;
+}
+
+.hero {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.hero-title {
+    font-size: 7vw;
+    text-align: center;
+    color: black;
+    z-index: 1;
+    position: absolute;
+    transform: translateY(-8vw);
+}
+
+@media (max-width: 600px) {
+    .hero-title {
+        font-size: 13vw;
+        transform: translateY(55vw);
+    }
+    .text-wrapper p {
+        font-size: 11vw;
+        transform: translateY(70vw) translateX(-12vw);
+        white-space: nowrap;
+    }
+}
+
+.cursor {
+    position: fixed;
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+    background-color: #fff;
+    transition: 0.1s;
+    z-index: 100;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    mix-blend-mode: exclusion;
+    transition: 0.2;
+}
+
+.hero-title:hover~.cursor {
+    transform: scale(6);
+}

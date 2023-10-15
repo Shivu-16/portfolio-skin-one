@@ -1,0 +1,96 @@
+.menu {
+    position: relative;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    width: 25vw;
+    height: 25vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    /* background-color: aqua; */
+}
+
+.iconImage {
+    height: 3vw;
+}
+
+.menu .toggle {
+    position: absolute;
+    right: 0.8vw;
+    top: 0.5vw;
+    width: 10vw;
+    height: 10vw;
+    background: pink;
+    background-size: 70%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.menu .toggle.active {
+    /* plus ko cross banane ke liye */
+    transform: rotate(315deg);
+    right: 0.8vw;
+    top: 0.5vw;
+    box-shadow: 0 0 0 7vw pink;
+    background: green;
+}
+
+.menu li {
+    position: absolute;
+    list-style: none;
+    top: 4vw;
+    left: 6vw;
+    transform: rotate(calc(145deg /5 * var(--i)));
+    translate: 3vw;
+    transform-origin: 10vw;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.menu.active li.active.iconOne{
+    /* transform: translateY(1vw) translateX(2.5vw); */
+    translate: -1.7vw 0.6vw;
+}
+
+.menu.active li.active.iconTwo{
+    /* transform: translateY(1vw) translateX(2.5vw); */
+    translate: -1.7vw 0.6vw;
+}
+
+.menu.active li.active.iconThree{
+    /* transform: translateY(1vw) translateX(2.5vw); */
+    translate: -1.7vw 0.6vw;
+}
+
+.menu.active li.active.iconFour{
+    /* transform: translateY(1vw) translateX(2.5vw); */
+    translate: 2vw 2.6vw;
+}
+
+.menu.active li.active.iconFive{
+    /* transform: translateY(1vw) translateX(2.5vw); */
+    translate: 3.8vw 2.6vw;
+}
+
+.menu.active li {
+    visibility: visible;
+    opacity: 1;
+}
+
+.menu li a {
+    width: 4vw;
+    height: 4vw;
+    border-radius: 50%;
+    background: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(calc(145deg /-5 * var(--i)));
+}
